@@ -35,7 +35,7 @@ background: yellow;
 
 .articlebox {
 width: 33.3333%;
-height: 300px;
+height: 26vw;
 margin: auto;
 background: blue;
 float: left;
@@ -49,8 +49,8 @@ h3 {
   position: absolute;
   bottom: 25px;
   left: -3px;
-
 }
+
 span{
   background: white;
   position: absolute;
@@ -60,7 +60,7 @@ span{
 }
 
 .content{
-  position: relative;
+position: relative;
 background: green;
 width: 100%;
 height: 100%;
@@ -77,11 +77,17 @@ height: 100%;
   background: yellow;
   }
   .articlebox{
-    width: 100%;
+    width: 100vw;
+    height: 100vw;
     margin: auto;
-    height: 200px;
     padding: 20px;
   }
+}
+h3 {
+  background: white;
+  position: absolute;
+  bottom: 36px;
+  left: -3px;
 }
 /*
 @media (min-width:660px) and (max-width:900px){
